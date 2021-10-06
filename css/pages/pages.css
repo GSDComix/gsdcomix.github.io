@@ -1,0 +1,25 @@
+.ctx {
+	position: absolute;
+	top: 0px;
+	
+	color: rgb(255, 255, 255);
+}
+
+.title_text {
+	left: 40%;
+}
+
+.copyright {
+	position: absolute;
+	bottom: 0px;
+	color: rgba(255, 255, 255, 0.15);
+}
+
+A {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.15)
+}
+
+A:active {
+	color: rgba(207, 3, 252, 0.5)
+}
