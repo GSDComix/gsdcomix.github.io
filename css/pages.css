@@ -1,27 +1,15 @@
-.ctx {
+.content-wrapper {
+	left: 50px;
+	text-align: center;
+}
+
+.bglogo {
+	width: 50ch;
+	height: 50ch;
+	left: -10px;
 	position: absolute;
-	top: 0px;
-	
-	color: rgb(255, 255, 255);
-}
-
-.title_text {
-	left: 40%;
-}
-
-.copyright {
-	position: absolute;
-	bottom: 0px;
-}
-
-.cmx {
-	left: 37%;
-	top: 5%;
-}
-
-.mmind {
-	left: 37%;
-	top: 15%;
+	overflow: show;
+	opacity: 0.1;
 }
 
 .btn {
@@ -32,17 +20,19 @@
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
 
+.mmind-open {
+	position: relative;
+	left: 40%;
+}
+
 .unselectable {
   -webkit-touch-callout: none;
   user-select: none;
 }
 
-.btn_text {
-	position: relative;
-	top: 35%;
-	left: 7%;
-	
-	color: rgba(255, 255, 255, 0.7);
+.copyright {
+	position: absolute;
+	bottom: 0px;
 }
 
 A {
