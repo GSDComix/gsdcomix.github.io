@@ -12,6 +12,16 @@
 	opacity: 0.1;
 }
 
+.im404 {
+	width: 100ch;
+	height: 100ch;
+}
+
+.txt404 {
+	color: rgba(245, 139, 139, 0.9);
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
 .btn {
 	width: 250px;
 	height: 50px;
