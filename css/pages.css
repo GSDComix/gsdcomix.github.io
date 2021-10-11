@@ -4,6 +4,9 @@
 }
 
 .mmind-btn-im {
+	position: relative;
+	left: 5px;
+	cursor: pointer;
 	width: 300px;
 	height: 150px;
 }
@@ -33,11 +36,6 @@
 	border-radius: 5px;
 	background-color: rgba(20, 20, 20, 0.6);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
-}
-
-.mmind-open {
-	position: relative;
-	left: 5px;
 }
 
 .unselectable {
