@@ -15,6 +15,8 @@
 	width: 50px;
 	height: 50px;
 	border-radius: 100%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+
 }
 
 .preview {
@@ -22,7 +24,7 @@
 	background-color: rgba(0, 0, 0, 0.5);
 	color: #afafaf;
 	border-radius: 20px;
-	backdrop-filter: blur(2px);
+	backdrop-filter: blur(8px);
 }
 
 .bglogo {
@@ -44,12 +46,23 @@
 	background-color: rgba(0, 0, 0, 0.4);
 }
 
+.to-index-btn {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 8px;
+	backdrop-filter: blur(8px);
+	left: 5px;
+	top: 5px;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+}
+
 .btn {
 	width: 250px;
 	height: 50px;
 	border-radius: 5px;
 	background-color: rgba(20, 20, 20, 0.6);
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
 
 .unselectable {
@@ -60,6 +73,10 @@
 .copyright {
 	position: absolute;
 	bottom: 0px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 20px;
+	backdrop-filter: blur(8px);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
 
 A {
