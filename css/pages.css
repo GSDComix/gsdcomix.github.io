@@ -72,7 +72,7 @@
 
 .copyright {
 	position: absolute;
-	bottom: 0px;
+	bottom: 5px;
 	background-color: rgba(0, 0, 0, 0.5);
 	border-radius: 20px;
 	backdrop-filter: blur(8px);
