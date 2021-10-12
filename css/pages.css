@@ -17,7 +17,12 @@
 	border-radius: 100%;
 }
 
-.nnone {}
+.preview {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #afafaf;
+	border-radius: 20px;
+}
 
 .bglogo {
 	width: 50ch;
